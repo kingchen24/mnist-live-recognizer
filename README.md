@@ -78,7 +78,7 @@ The critical insight: **model accuracy ≠ real-world accuracy**. A 99.46% train
 #### 1. Installation
 
 ```bash
-git clone https://github.com/<your-username>/mnist-live-recognizer.git
+git clone https://github.com/kingchen24/mnist-live-recognizer.git
 cd mnist-live-recognizer
 pip install -r requirements.txt
 ```
@@ -304,7 +304,7 @@ MIT License - see [LICENSE](LICENSE) for details.
 #### 1. 安装
 
 ```bash
-git clone https://github.com/<your-username>/mnist-live-recognizer.git
+git clone https://github.com/kingchen24/mnist-live-recognizer.git
 cd mnist-live-recognizer
 pip install -r requirements.txt
 ```
