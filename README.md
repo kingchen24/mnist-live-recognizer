@@ -33,7 +33,7 @@ The project goes through **5 iterations** (v1 → v2 → v2.5 → v3 → v3.5), 
 
 ![Banner](docs/images/00_banner.png)
 
-**Mouse Mode** (drawing in progress, real-time inference) | **Camera Mode** (real hand-written digit, 87.7% confidence on digit 5)
+**Mouse Mode** (drawing in progress, real-time inference) | **Camera Mode** (real hand-written digit, 98.9% confidence on digit 8)
 
 ### Live Demos
 
@@ -45,7 +45,7 @@ The project goes through **5 iterations** (v1 → v2 → v2.5 → v3 → v3.5), 
 #### Camera Capture Mode (real handwriting)
 ![Real Camera Screenshot](docs/images/10_real_camera_screenshot.png)
 
-*Real webcam feed of hand-written "5" on paper — predicted as 5 with 87.7% confidence.*
+*Real webcam feed of hand-written "8" on paper — predicted as 8 with 98.9% confidence.*
 
 ### Features
 
@@ -269,7 +269,7 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 ![横幅](docs/images/00_banner.png)
 
-**鼠标模式**(绘制中,实时推理) | **摄像头模式**(真实手写"5",87.7% 置信度)
+**鼠标模式**(绘制中,实时推理) | **摄像头模式**(真实手写"8",98.9% 置信度)
 
 ### 实时演示
 
@@ -281,7 +281,7 @@ MIT License - see [LICENSE](LICENSE) for details.
 #### 摄像头捕获模式(真实手写)
 ![真实摄像头截图](docs/images/10_real_camera_screenshot.png)
 
-*真实摄像头画面:纸上写"5"——87.7% 置信度识别为 5。*
+*真实摄像头画面:纸上写"8"——98.9% 置信度识别为 8。*
 
 ### 功能特性
 

@@ -6,7 +6,7 @@ This folder contains the **original source assets** used to generate the demo GI
 
 | File | Used For | In README |
 |------|----------|-----------|
-| `camra.png` | Real camera mode screenshot showing hand-written "5" with 87.7% confidence | `docs/images/10_real_camera_screenshot.png` |
+| `camera8.png` | Real camera mode screenshot showing hand-written "5" with 87.7% confidence | `docs/images/10_real_camera_screenshot.png` |
 | `mouse mode.mp4` | Real screen recording of mouse drawing mode | `docs/gifs/mouse_mode_demo.gif` (converted) |
 
 ## Notes
