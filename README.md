@@ -29,20 +29,23 @@ A complete MNIST handwritten digit recognition project that supports **two real-
 
 The project goes through **5 iterations** (v1 → v2 → v2.5 → v3 → v3.5), each solving specific problems. The journey from a 14% accurate demo to a 98% accurate production-ready application is documented in the code and visualizations.
 
-### Banner
+### Real Demo Screenshots
 
 ![Banner](docs/images/00_banner.png)
 
-### Demo
+**Mouse Mode** (drawing in progress, real-time inference) | **Camera Mode** (real hand-written digit, 87.7% confidence on digit 5)
 
-#### Mouse Drawing Mode
-![Mouse UI Evolution](docs/gifs/mouse_ui_evolution.gif)
+### Live Demos
 
-#### Camera Capture Mode
-![Preprocessing Evolution](docs/gifs/preprocessing_evolution.gif)
+#### Mouse Drawing Mode (full demo)
+![Mouse Mode Demo](docs/gifs/mouse_mode_demo.gif)
 
-#### Camera Pipeline
-![Camera Pipeline](docs/gifs/camera_pipeline.gif)
+*Real screen recording of drawing a "5" with the mouse — predicted as 5 with 78.2% confidence.*
+
+#### Camera Capture Mode (real handwriting)
+![Real Camera Screenshot](docs/images/10_real_camera_screenshot.png)
+
+*Real webcam feed of hand-written "5" on paper — predicted as 5 with 87.7% confidence.*
 
 ### Features
 
@@ -205,15 +208,22 @@ mnist-live-recognizer/
 │   ├── realtime_opencv_v2.py  # Preprocessing fix
 │   ├── realtime_opencv_v2_5.py# UI buttons
 │   ├── realtime_opencv_v3.py  # Camera mode (with bug)
-│   └── realtime_opencv_v3_5.py# Final stable version
+│   └── realtime_opencv_v3_5.py# Final stable version (recommended)
 ├── scripts/                   # Diagnostic and test scripts
 │   ├── camera_diagnostic.py
 │   ├── quick_camera_test.py
 │   ├── compare_preprocessing.py
 │   └── ...
-├── docs/                      # Documentation
-│   ├── images/                # Screenshots
+├── docs/                      # Documentation assets
+│   ├── images/                # Screenshots and diagrams
+│   │   ├── 00_banner.png     # Main banner
+│   │   ├── 02_preprocessing_v1_vs_v2.png
+│   │   ├── 10_real_camera_screenshot.png
+│   │   └── ...
 │   └── gifs/                  # Demo animations
+│       ├── mouse_mode_demo.gif
+│       ├── preprocessing_evolution.gif
+│       └── camera_pipeline.gif
 ├── models/                    # Saved checkpoints (after training)
 └── data/                      # MNIST dataset (auto-downloaded)
 ```
@@ -255,20 +265,23 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 项目经历了 **5 个版本迭代**(v1 → v2 → v2.5 → v3 → v3.5),每个版本解决特定问题。从 14% 准确率的 demo 进化到 98% 准确率的生产级应用,完整过程都记录在代码和可视化中。
 
-### 横幅
+### 真实运行截图
 
 ![横幅](docs/images/00_banner.png)
 
-### 演示
+**鼠标模式**(绘制中,实时推理) | **摄像头模式**(真实手写"5",87.7% 置信度)
 
-#### 鼠标绘制模式
-![鼠标 UI 演进](docs/gifs/mouse_ui_evolution.gif)
+### 实时演示
 
-#### 摄像头捕获模式
-![预处理演进](docs/gifs/preprocessing_evolution.gif)
+#### 鼠标绘制模式(完整 demo)
+![鼠标模式演示](docs/gifs/mouse_mode_demo.gif)
 
-#### 摄像头处理流水线
-![摄像头流水线](docs/gifs/camera_pipeline.gif)
+*真实录屏:用鼠标画"5"——78.2% 置信度识别为 5。*
+
+#### 摄像头捕获模式(真实手写)
+![真实摄像头截图](docs/images/10_real_camera_screenshot.png)
+
+*真实摄像头画面:纸上写"5"——87.7% 置信度识别为 5。*
 
 ### 功能特性
 
